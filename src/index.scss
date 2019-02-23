@@ -1,0 +1,18 @@
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/base/_all.sass";
+@import "~bulma/sass/elements/_all.sass";
+@import "~bulma/sass/components/_all.sass";
+@import "~bulma/sass/layout/section.sass";
+@import "~bulma/sass/grid/_all.sass";
+html{
+  min-height: 100%;
+  overflow-y: auto;
+}
+.navbar {
+  padding: 0 0.76rem;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}

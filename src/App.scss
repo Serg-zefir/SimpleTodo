@@ -1,0 +1,54 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  // height: 40vmin;
+  pointer-events: none;
+}
+
+.navbar-brand:hover img {
+  position: absolute;
+  margin: 11em 0 0 3em;
+  max-height: 19em;
+  max-width: 19em;
+  height: 18em;
+  transition: 2s;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ava {
+  background-color: darkorange;
+  border-radius: 50%;
+  padding: 0 15px;
+}
+
+.is-cenform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  form.box {
+    margin-top: 5%;
+    max-width: 40%;
+  }
+}
+
+.product-list {
+  background-color: #f4f9f9f0;
+}
+
+#myVideo {
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
